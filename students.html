@@ -1,58 +1,79 @@
-<!doctype html>
-<html lang="en" >
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Students — Talent Engineering</title>
-  <meta name="description" content="Resources and features for Talent Engineering students.">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="normalize.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+  <link rel="shortcut icon" href="https://i.postimg.cc/0y44MsH1/Picsart-25-11-27-23-47-53-304.png" type="image/x-icon" />
+  <title>Talent-Engineering</title>
 </head>
 
 <body>
-
-  <nav>
-    <div>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="service.html">Service</a>
-      <a href="parents.html">Parents</a>
-      <a href="students.html">Students</a>
-      <a href="contact.html">Contact</a>
-      <a href="team.html">Team</a>
+  <!-- NAVBAR -->
+  <nav class="nav">
+    <div class="container_nav">
+      <a class="nav_link" href="index.html">Home</a>
+      <a class="nav_link" href="about.html">About</a>
+      <a class="nav_link" href="service.html">Service</a>
+      <a class="nav_link" href="parents.html">Parents</a>
+      <a class="nav_link" href="students.html">Students</a>
+      <a class="nav_link" href="contact.html">Contact</a>
+      <a class="nav_link" href="team.html">Team</a>
     </div>
   </nav>
 
-  <header>
-    <div>
-      <h1>For Students</h1>
-      <p>Recorded materials, short quizzes, and self-support resources.</p>
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero_content">
+      <h1 class="hero_title">Comprehensive Training Programs</h1>
+      <p class="hero_subtitle">
+        Professional training and support for students and parents.
+      </p>
     </div>
   </header>
 
-  <main>
-    <div>
-      <section>
-        <div>
+<section class="student">
+  <div class="student_list">
+    <article class="student_item">
           <img src="https://images.pexels.com/photos/3747511/pexels-photo-3747511.jpeg" width="120">
-          <h5>Recorded Resources</h5>
-          <p>Video playlists, notes, and short quizzes.</p>
-          <a href="#">Visit Resources</a>
-        </div>
-
-        <div>
+          <h5 class="student_title">Recorded Resources</h5>
+          <p class="student_p">Video playlists, notes, and short quizzes.</p>
+          <a class="student_button"  href="#">Visit Resources</a>
+        </article>
+        <article class="student_item">
           <img src="https://images.pexels.com/photos/3184644/pexels-photo-3184644.jpeg" width="120">
-          <h5>Assignments & Quizzes</h5>
-          <p>Task submission system and performance tracking.</p>
-          <a href="#">View Quizzes</a>
+          <h5 class="student_title">Assignments & Quizzes</h5>
+          <p class="student_p"> Task submission system and performance tracking.</p>
+          <a class="student_button" href="#">View Quizzes</a>
+        </article>
         </div>
       </section>
 
-      <section>
-        <h4>Tips for Effective Learning</h4>
-        <ol>
+    <section class="student_end">
+        <h4 class="student_title">Tips for Effective Learning</h4>
+        <ol class="student_ol">
           <li>Set a weekly review schedule and stick to it.</li>
           <li>Break subjects into small units and review them daily.</li>
           <li>Use spaced repetition techniques.</li>
         </ol>
       </section>
     </div>
-  </mai
+
+
+      <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer_content">
+      <p class="footer_text">© 2025 Talent-Engineering. All rights reserved.</p>
+      <div class="social_links">
+        <a href="#" class="social_link"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social_link"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#" class="social_link"><i class="fa-solid fa-envelope"></i></a>
+        <a href="#" class="social_link"><i class="fa-solid fa-school"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

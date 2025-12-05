@@ -1,66 +1,86 @@
-<!doctype html>
-<html lang="en" >
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="normalize.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+  <link rel="shortcut icon" href="https://i.postimg.cc/0y44MsH1/Picsart-25-11-27-23-47-53-304.png" type="image/x-icon" />
   <title>Talent-Engineering</title>
 </head>
-<body>
 
+<body>
   <!-- NAVBAR -->
-  <nav>
-    <div>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="service.html">Service</a>
-      <a href="parents.html">Parents</a>
-      <a href="students.html">Students</a>
-      <a href="contact.html">Contact</a>
-      <a href="team.html">Team</a>
+  <nav class="nav">
+    <div class="container_nav">
+      <a class="nav_link" href="index.html">Home</a>
+      <a class="nav_link" href="about.html">About</a>
+      <a class="nav_link" href="service.html">Service</a>
+      <a class="nav_link" href="parents.html">Parents</a>
+      <a class="nav_link" href="students.html">Students</a>
+      <a class="nav_link" href="contact.html">Contact</a>
+      <a class="nav_link" href="team.html">Team</a>
     </div>
   </nav>
 
   <!-- HERO -->
-  <header>
-    <div>
-      <h1>Comprehensive Training Programs</h1>
-      <p>Professional training and support for students and parents.</p>
-      <a href="service.html">View Services</a>
+  <header class="hero">
+    <div class="hero_content">
+      <h1 class="hero_title">Comprehensive Training Programs</h1>
+      <p class="hero_subtitle">
+        Professional training and support for students and parents.
+      </p>
+      <a class="service_button" href="service.html">View Services</a>
     </div>
   </header>
 
-  <!-- SERVICES -->
-  <main>
-    <div>
-      <article>
-        <img src="https://images.pexels.com/photos/5212329/pexels-photo-5212329.jpeg" width="120">
-        <h5>On-site Courses</h5>
-        <p>Weekly organization and follow-up.</p>
-      </article>
+<section class="Services">
+  <div class="services_list">
+    <article class="service_item">
+      <img src="https://images.pexels.com/photos/5212329/pexels-photo-5212329.jpeg" />
+      <h5 class="service_title">On-site Courses</h5>
+      <p class="service_p">Weekly organization and follow-up.</p>
+    </article>
 
-      <article>
-        <img src="https://images.pexels.com/photos/4226122/pexels-photo-4226122.jpeg" width="120">
-        <h5>Online Courses</h5>
-        <p>Short training videos.</p>
-      </article>
+    <article class="service_item">
+      <img src="https://images.pexels.com/photos/4226122/pexels-photo-4226122.jpeg" />
+      <h5 class="service_title">Online Courses</h5>
+      <p class="service_p">Short training videos.</p>
+    </article>
 
-      <article>
-        <img src="https://images.pexels.com/photos/1367276/pexels-photo-1367276.jpeg" width="120">
-        <h5>Parent Support</h5>
-        <p>Continuous reports and follow-up.</p>
-      </article>
-    </div>
+    <article class="service_item">
+      <img src="https://images.pexels.com/photos/1367276/pexels-photo-1367276.jpeg" />
+      <h5 class="service_title">Parent Support</h5>
+      <p class="service_p">Continuous reports and follow-up.</p>
+    </article>
+  </div>
+</section>
+
 
     <!-- VIDEO -->
-    <div>
-      <section>
-        <h4>Introductory Video</h4>
-        <video controls preload="metadata" playsinline>
-          <source src="https://www.pexels.com/download/video/5198159/" type="video/mp4">
+    <div class="video_section">
+      <section class="video_container">
+        <h4 class="video_title">Introductory Video</h4>
+        <video class="video" controls preload="metadata" playsinline>
+          <source src="https://www.pexels.com/download/video/5198159/" type="video/mp4" />
         </video>
       </section>
     </div>
   </main>
-
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer_content">
+      <p class="footer_text">© 2025 Talent-Engineering. All rights reserved.</p>
+      <div class="social_links">
+        <a href="#" class="social_link"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social_link"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#" class="social_link"><i class="fa-solid fa-envelope"></i></a>
+        <a href="#" class="social_link"><i class="fa-solid fa-school"></i></a>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
