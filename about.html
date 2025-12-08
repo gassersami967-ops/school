@@ -1,92 +1,102 @@
 <!doctype html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>About</title>
-  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
   <!-- NAVBAR -->
   <nav class="nav">
     <div class="container_nav">
+        <div class="logo">Talent-Engineering</div>
+    <div class="menu_icon" id="menuBtn">
+      <i class="fas fa-bars"></i>
+    </div>
+     <div class="nav_links" id="navLinks">
       <a class="nav_link" href="index.html">Home</a>
       <a class="nav_link" href="about.html">About</a>
       <a class="nav_link" href="service.html">Service</a>
       <a class="nav_link" href="parents.html">Parents</a>
       <a class="nav_link" href="students.html">Students</a>
-    <a class="nav_link" href="contact.html">Contact</a>
+      <a class="nav_link" href="contact.html">Contact</a>
       <a class="nav_link" href="team.html">Team</a>
+      </div>
     </div>
   </nav>
 
-  <!--  HEADER -->
+  <!-- HEADER -->
   <header class="hero">
-    <div class="hero_content">
-      <h1 class="hero_title">About Us</h1>
-      <p class="hero_subtitle">An educational organization that aims to raise academic and skill performance through well-designed courses and specialized follow-up.</p>
+    <div class="container hero__content">
+      <h1 class="hero__title">About Us</h1>
+      <p class="hero__subtitle">An educational organization that aims to raise academic and skill performance through well-designed courses and specialized follow-up.</p>
     </div>
   </header>
 
   <main>
-    <div>
-      <section class="Students">
-        <div class="student_">
-          <h3>Our Vision</h3>
+    <div class="container main__inner">
+      <section class="card card--about">
+        <div class="card_col card_col--wide">
+          <h3 class="h3_about">Our Vision</h3>
           <p>Empowering students and parents to achieve the best educational outcomes through structured programs and continuous support.</p>
 
-          <h3>Our Mission</h3>
-          <ul>
+          <h3 class="h3_about" >Our Mission</h3>
+          <ul class="list">
             <li>Design practical and applicable curricula.</li>
             <li>Provide hands-on training and periodic evaluation.</li>
             <li>Offer dedicated support for parents and students.</li>
           </ul>
         </div>
 
-        <div>
-          <h3>Our Values</h3>
+        <div class="card_col card_col--narrow">
+          <h3 class="h3_about">Our Values</h3>
 
-          <div>
-            <div>
-              <h5>Professionalism</h5>
+          <div class="values">
+            <div class="value">
+              <h5 class="h5_about">Professionalism</h5>
               <p>High-quality content and implementation following clear standards.</p>
             </div>
-            <div>
-              <h5>Transparency</h5>
+
+            <div class="value">
+              <h5 class="h5_about">Transparency</h5>
               <p>Clear communication and measurable periodic assessments.</p>
             </div>
-            <div>
-              <h5>Continuous Support</h5>
+
+            <div class="value">
+              <h5 class="h5_about">Continuous Support</h5>
               <p>Ongoing guidance and assistance for each student and their family.</p>
             </div>
           </div>
         </div>
       </section>
 
-      <section>
-        <h4>Our Team</h4>
-        <div>
-          <div>
-            <img src="https://images.pexels.com/photos/5212339/pexels-photo-5212339.jpeg" alt="Team Member" width="120">
-            <h6>Mr. Ahmed Ali</h6>
+      <section class="card card--team">
+        <h4 class="team__title">Our Team</h4>
+
+        <div class="team-grid">
+          <div class="team-member">
+            <img src="https://images.pexels.com/photos/5212339/pexels-photo-5212339.jpeg" alt="Mr. Ahmed Ali" width="120" />
+            <h6 class="h6_about">Mr. Ahmed Ali</h6>
             <p>Academic Director</p>
           </div>
-          <div>
-            <img src="https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg" alt="Team Member" width="120">
-            <h6>Eng. Samira Ibrahim</h6>
+
+          <div class="team-member">
+            <img src="https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg" alt="Eng. Samira Ibrahim" width="120" />
+            <h6 class="h6_about">Eng. Samira Ibrahim</h6>
             <p>Program Coordinator</p>
           </div>
-          <div>
-            <img src="https://images.pexels.com/photos/3184642/pexels-photo-3184642.jpeg" alt="Team Member" width="120">
-            <h6>Mr. Khaled Mahmoud</h6>
+
+          <div class="team-member">
+            <img src="https://images.pexels.com/photos/3184642/pexels-photo-3184642.jpeg" alt="Mr. Khaled Mahmoud" width="120" />
+            <h6 class="h6_about">Mr. Khaled Mahmoud</h6>
             <p>Skills Trainer</p>
           </div>
         </div>
       </section>
     </div>
   </main>
-
+<script src="nav.js"></script>
 </body>
 </html>

@@ -1,18 +1,22 @@
 <!doctype html>
-<html lang="en" >
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Services — Talent Engineering</title>
-  <meta name="description" content="Educational and training services we provide.">
-  <link rel="stylesheet" href="service.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- navbar-->
+  <!-- NAVBAR -->
   <nav class="nav">
     <div class="container_nav">
+        <div class="logo">Talent-Engineering</div>
+    <div class="menu_icon" id="menuBtn">
+      <i class="fas fa-bars"></i>
+    </div>
+     <div class="nav_links" id="navLinks">
       <a class="nav_link" href="index.html">Home</a>
       <a class="nav_link" href="about.html">About</a>
       <a class="nav_link" href="service.html">Service</a>
@@ -20,75 +24,88 @@
       <a class="nav_link" href="students.html">Students</a>
       <a class="nav_link" href="contact.html">Contact</a>
       <a class="nav_link" href="team.html">Team</a>
+      </div>
     </div>
   </nav>
-<!--  HEADER -->
-  <header class="hero">
-     <div class="hero_content">
-      <h1 class="hero_title">Services</h1>
-      <p class="hero_subtitle">A range of services designed to cover learning and support needs for all beneficiaries.</p>
-    </div>
-  </header>
 
-  <main>
-    <div>
-      <div>
-        <img src="https://images.pexels.com/photos/5212667/pexels-photo-5212667.jpeg" width="120">
-        <h5>Foundation Courses</h5>
-        <p>Series of lectures and exercises to build a strong foundation in core subjects.</p>
-        <a href="#">Details</a>
-      </div>
+<!-- Header -->
+<header class="hero">
+  <div class="hero_content">
+    <h1 class="hero_title">Services</h1>
+    <p class="hero_subtitle">A range of services designed to support learners at all levels.</p>
+  </div>
+</header>
 
-      <div>
-        <img src="https://images.pexels.com/photos/4019754/pexels-photo-4019754.jpeg" width="120">
-        <h5>Performance Enhancement Courses</h5>
-        <p>Focus on exam skills, time management, and effective review techniques.</p>
-        <a href="#">Details</a>
-      </div>
+<!-- Main Content -->
+<main>
 
-      <div>
-        <img src="https://images.pexels.com/photos/5428155/pexels-photo-5428155.jpeg" width="120">
-        <h5>Consultation Sessions</h5>
-        <p>Individual assessment and personalized progress plan for each student.</p>
-        <a href="#">Book a Session</a>
-      </div>
+  <!-- Services Cards -->
+  <div class="cards_service">
+    <div class="card_service">
+      <img src="https://images.pexels.com/photos/5212667/pexels-photo-5212667.jpeg" alt="">
+      <h5>Foundation Courses</h5>
+      <p>Build a strong understanding through lectures and exercises.</p>
+      <a href="#" class="BOOK">Details</a>
     </div>
 
-    <section>
-      <h4>Available Packages</h4>
-      <div>
-        <div>
-          <h6>Basic Package</h6>
-          <p>Recorded courses + weekly support</p>
-          <p>Competitive Price</p>
-        </div>
-        <div>
-          <h6>Intermediate Package</h6>
-          <p>All basic features + monthly live sessions</p>
-          <p>Balanced Choice</p>
-        </div>
-        <div>
-          <h6>Premium Package</h6>
-          <p>Includes individual follow-up and detailed reports</p>
-          <p>Best Option for Results</p>
-        </div>
-      </div>
-    </section>
+    <div class="card_service">
+      <img src="https://images.pexels.com/photos/4019754/pexels-photo-4019754.jpeg" alt="">
+      <h5>Performance Enhancement Courses</h5>
+      <p>Improve exam skills, time management, and revision strategies.</p>
+      <a href="#" class="BOOK">Details</a>
+    </div>
 
-    <section>
-      <h4>Frequently Asked Questions</h4>
-      <div>
-        <div>
-          <h5>How do I book a course?</h5>
-          <p>You can book via the contact page or through the direct booking links attached to each course.</p>
-        </div>
-        <div>
-          <h5>Is there a refund?</h5>
-          <p>The refund policy is stated in the subscription terms; partial refunds are available within a specific time frame.</p>
-        </div>
-      </div>
-    </section>
-  </main>
+    <div class="card_service">
+      <img src="https://images.pexels.com/photos/5428155/pexels-photo-5428155.jpeg" alt="">
+      <h5>Consultation Sessions</h5>
+      <p>Personal assessment + tailored improvement plan.</p>
+      <a href="#" class="BOOK">Book a Session</a>
+    </div>
+  </div>
 
+  <!-- Packages -->
+  <section class="packages">
+    <h4>Available Packages</h4>
+
+    <div class="package_box">
+      <div class="package">
+        <h6>Basic Package</h6>
+        <p>Recorded courses + weekly support</p>
+        <p>Affordable option</p>
+      </div>
+
+      <div class="package">
+        <h6>Intermediate Package</h6>
+        <p>All basic features + monthly live sessions</p>
+        <p>Great balance</p>
+      </div>
+
+      <div class="package">
+        <h6>Premium Package</h6>
+        <p>Private follow-up + detailed reports</p>
+        <p>Best for maximum results</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq">
+    <h4>Frequently Asked Questions</h4>
+
+    <div class="faq_box">
+      <div class="faq_item">
+        <h5>How do I book a course?</h5>
+        <p>You can book through the contact page or the course links.</p>
+      </div>
+
+      <div class="faq_item">
+        <h5>Is there a refund?</h5>
+        <p>Refund details are available in subscription terms.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+<script src="nav.js"></script>
 </body>
 </html>

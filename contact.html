@@ -1,18 +1,22 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Contact Us — Talent Engineering</title>
-  <meta name="description" content="Contact us to book courses, inquire, or request technical support.">
-  <link rel="stylesheet" href="contact.css">
+  <meta name="description" content="Contact us to book courses, inquire, or request technical support." />
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
-  <!-- NAVBAR -->
+   <!-- NAVBAR -->
   <nav class="nav">
     <div class="container_nav">
+        <div class="logo">Talent-Engineering</div>
+    <div class="menu_icon" id="menuBtn">
+      <i class="fas fa-bars"></i>
+    </div>
+     <div class="nav_links" id="navLinks">
       <a class="nav_link" href="index.html">Home</a>
       <a class="nav_link" href="about.html">About</a>
       <a class="nav_link" href="service.html">Service</a>
@@ -20,66 +24,65 @@
       <a class="nav_link" href="students.html">Students</a>
       <a class="nav_link" href="contact.html">Contact</a>
       <a class="nav_link" href="team.html">Team</a>
+     </div>
     </div>
   </nav>
 
   <!-- HEADER -->
   <header class="hero">
-     <div class="hero_content">
-      <h1 class="hero_title">Contact Us</h1>
-       <p class="hero_subtitle">Send your inquiry and we will respond as soon as possible.</p>
+    <div class="container">
+      <h1 class="hero__title">Contact Us</h1>
+      <p class="hero__subtitle">Send your inquiry and we will respond as soon as possible.</p>
     </div>
   </header>
 
   <main>
-    <div>
-      <div>
-       
+    <div class="container main__grid">
+      <section class="card_contact card--form">
         <form>
-          <div>
+          <div class="form-row">
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Full Name" required>
+            <input class="form-control" type="text" id="name" name="name" placeholder="Full Name" required />
           </div>
 
-          <div>
+          <div class="form-row">
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="email@example.com" required>
+            <input class="form-control" type="email" id="email" name="email" placeholder="email@example.com" required />
           </div>
 
-          <div>
+          <div class="form-row">
             <label for="topic">Topic</label>
-            <select id="topic" name="topic">
+            <select class="form-control" id="topic" name="topic">
               <option value="general">General Inquiry</option>
               <option value="booking">Course Booking</option>
               <option value="support">Technical Support</option>
             </select>
           </div>
 
-          <div>
+          <div class="form-row">
             <label for="message">Message</label>
-            <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+            <textarea class="form-control" id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
           </div>
 
-          <div>
-            <button type="submit">Send</button>
+          <div class="form-row">
+            <button class="btn btn--primary" type="submit">Send</button>
           </div>
         </form>
-      </div>
+      </section>
 
-      <div>
-        <!-- CONTACT INFO -->
+      <aside class="card_contact card--info">
         <h5>Contact Information</h5>
         <p>Email: info@example.com</p>
         <p>Phone: +20 100 000 0000</p>
         <p>Address: Cairo, Egypt</p>
 
-        <hr>
+        <hr />
 
         <h6>Working Hours</h6>
         <p>Saturday — Thursday: 9:00 — 18:00</p>
-      </div>
+      </aside>
     </div>
   </main>
-
+  <script src="nav.js"></script>
 </body>
 </html>

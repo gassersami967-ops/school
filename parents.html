@@ -4,18 +4,23 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="normalize.css" />
+  <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
-  <link rel="shortcut icon" href="https://i.postimg.cc/0y44MsH1/Picsart-25-11-27-23-47-53-304.png"
-    type="image/x-icon" />
+  <link rel="shortcut icon" href="https://i.postimg.cc/0y44MsH1/Picsart-25-11-27-23-47-53-304.png" type="image/x-icon" />
   <title>Talent-Engineering</title>
 </head>
 
 <body>
+
   <!-- NAVBAR -->
   <nav class="nav">
     <div class="container_nav">
+        <div class="logo">Talent-Engineering</div>
+    <div class="menu_icon" id="menuBtn">
+      <i class="fas fa-bars"></i>
+    </div>
+     <div class="nav_links" id="navLinks">
       <a class="nav_link" href="index.html">Home</a>
       <a class="nav_link" href="about.html">About</a>
       <a class="nav_link" href="service.html">Service</a>
@@ -23,9 +28,11 @@
       <a class="nav_link" href="students.html">Students</a>
       <a class="nav_link" href="contact.html">Contact</a>
       <a class="nav_link" href="team.html">Team</a>
+      </div>
     </div>
   </nav>
 
+  <!-- HEADER -->
   <header class="hero">
     <div class="hero_content">
       <h1 class="hero_title">Parents</h1>
@@ -33,47 +40,50 @@
     </div>
   </header>
 
-    <section class="parents">
-      <div class="parents_list">
-        <article class="parents_item">
-          <img src="https://images.pexels.com/photos/3768129/pexels-photo-3768129.jpeg" width="120">
-          <h5 class="parents_title">Parents Guide</h5>
-          <p class="parents_p">Tips on monitoring performance, supporting home learning, and managing academic stress.</p>
-          <a class="parents_button" href="https://www.noor-book.com/%D9%83%D8%AA%D8%A7%D8%A8-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D9%88%D9%8A%D8%A8-pdf#google_vignette">Download Guide</a>
-        </article>
+  <!-- PARENTS SECTION -->
+  <section class="parents">
 
+    <div class="parents_list">
 
-        <article class="parents_item">
-          <img src="https://images.pexels.com/photos/4008820/pexels-photo-4008820.jpeg" width="120">
-          <h5 class="parents_title">Guidance Sessions</h5>
-          <p class="parents_p">Monthly sessions to help parents understand monitoring and evaluation methods.</p>
-          <a class="parents_button" href="https://skolera.com/ar/blog/importance-of-communication-between-schools-and-parents/">Book a Session</a>
-      </div>
-    </section>
+      <article class="parents_item">
+        <img src="https://images.pexels.com/photos/3768129/pexels-photo-3768129.jpeg">
+        <h5 class="parents_title">Parents Guide</h5>
+        <p class="parents_p">Tips on monitoring performance, supporting home learning, and managing academic stress.</p>
+        <a class="parents_button" href="https://www.noor-book.com/%D9%83%D8%AA%D8%A7%D8%A8-%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D9%88%D9%8A%D8%A8-pdf#google_vignette">Download Guide</a>
+      </article>
 
-    <section class="parents_end">
-      <h4 class="parents_title">Progress Reports</h4>
-      <p class="parents_p">Parents can view student progress reports after registering for any dedicated package.</p>
-      <div>
-        <h4 class="parents_title">Access Reports Dashboard</h4>
-        <p class="parents_p">Log in to access performance reports, tasks, and notes.</p>
-        <a class="parents_button" href="#">Parent Login</a>
-      </div>
-    </section>
+      <article class="parents_item">
+        <img src="https://images.pexels.com/photos/4008820/pexels-photo-4008820.jpeg">
+        <h5 class="parents_title">Guidance Sessions</h5>
+        <p class="parents_p">Monthly sessions to help parents understand monitoring and evaluation methods.</p>
+        <a class="parents_button" href="https://skolera.com/ar/blog/importance-of-communication-between-schools-and-parents/">Book a Session</a>
+      </article>
 
-      <!-- FOOTER -->
+    </div>
+  </section>
+
+  <!-- PARENTS END SECTION -->
+  <section class="parents_end">
+    <h4 class="parents_title">Progress Reports</h4>
+    <p class="parents_p">Parents can view student progress reports after registering for any dedicated package.</p>
+
+    <h4 class="parents_title">Access Reports Dashboard</h4>
+    <p class="parents_p">Log in to access performance reports, tasks, and notes.</p>
+    <a class="parents_button" href="#">Parent Login</a>
+  </section>
+
+  <!-- FOOTER -->
   <footer class="footer">
-    <div class="footer_content">
-      <p class="footer_text">© 2025 Talent-Engineering. All rights reserved.</p>
-      <div class="social_links">
-        <a href="#" class="social_link"><i class="fab fa-facebook-f"></i></a>
-        <a href="#" class="social_link"><i class="fa-brands fa-whatsapp"></i></a>
-        <a href="#" class="social_link"><i class="fa-solid fa-envelope"></i></a>
-        <a href="#" class="social_link"><i class="fa-solid fa-school"></i></a>
-      </div>
+    <p class="footer_text">© 2025 Talent-Engineering. All rights reserved.</p>
+
+    <div class="social_links">
+      <a href="#" class="social_link"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="social_link"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="#" class="social_link"><i class="fa-solid fa-envelope"></i></a>
+      <a href="#" class="social_link"><i class="fa-solid fa-school"></i></a>
     </div>
   </footer>
-
+<script src="nav.js"></script>
 </body>
 
 </html>
